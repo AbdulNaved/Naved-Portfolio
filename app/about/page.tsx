@@ -24,8 +24,8 @@ const Page = () => {
             As a self-taught developer, I&apos;ve embarked on a journey to blend
             my passion for design with technical expertise. Specializing in
             front-end development, I craft immersive digital experiences that
-            seamlessly merge functionality with aesthetics. I am a full stack
-            developer, constantly pushing the boundaries of what's possible in
+            seamlessly merge functionality with aesthetics. I am a full-stack
+            developer, constantly pushing the boundaries of what&apos;s possible in
             the digital realm.
             <br />
             <br />
@@ -60,5 +60,5 @@ const Page = () => {
     </div>
   );
 };
-
+//
 export default Page;
