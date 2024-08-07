@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In your CSS file or style block */
+.glow {
+  text-shadow: 0 0 10px #ff3c006c;
+}
+
+
+
+/* Additional styles for the glowing effect can be adjusted based on your preferences */
+
+.background-gradient {
+  background: radial-gradient(
+    circle at top center,
+    hsla(222, 78%, 53%, 0.5) 0%,
+    hsla(222, 0%, 0%, 0) 50%,
+    hsla(222, 0%, 0%, 0) 100%
+  );
+}
+
+.content {
+  width: 334px;
+  height: 216px;
+  background: #f0f0f0;
+  border-radius: 3px;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 10px;
+  width: 668px;
+  height: 432px;
+  transform: scale(1);
+  transform-origin: top left;
+}
+
+.glass {
+  background-color: rgba(255, 255, 255, 0.431);
+  /* opacity: 100; */
+  filter: blur(1px);
+}
+html {
+  overflow-x: hidden !important;
+}
+
+@layer components {
+  .input-style {
+    @apply rounded-md text-black font-medium p-2 text-lg bg-white
+  }
+}
